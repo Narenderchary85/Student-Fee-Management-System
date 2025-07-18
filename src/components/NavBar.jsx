@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom'; 
 import { useNavigate } from 'react-router-dom';
+import { FiLogOut } from 'react-icons/fi';
 
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -51,7 +52,7 @@ const NavBar = () => {
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
             </div>
           </Link>
-          <div className='flex items-center gap-3 py-4 px-6 mt-auto text-gray-500 cursor-pointer transition-all duration-200 ease-in-out'
+          <div className='text-gray-700 hover:text-blue-600 font-medium relative group'
           onClick={handleLogout}>
               <FiLogOut className="text-[18px]" />
               <span>Logout</span>
