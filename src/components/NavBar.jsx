@@ -52,8 +52,8 @@ const NavBar = () => {
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
             </div>
           </Link>
-          <div className='text-gray-700 hover:text-blue-600 font-medium relative group'
-          onClick={handleLogout}>
+          <div className='text-gray-700 hover:text-blue-600 font-medium relative group cursor-pointer'
+              onClick={handleLogout}>
               <FiLogOut className="text-[18px]" />
               <span>Logout</span>
             </div>
@@ -76,7 +76,7 @@ const NavBar = () => {
             <Link to="/myprofile" onClick={() => setMenuOpen(false)} className="text-gray-700 hover:text-blue-600 font-medium">
               My Profile
             </Link>
-            <div className='text-gray-700 hover:text-blue-600 font-medium'
+            <div className='text-gray-700 hover:text-blue-600 font-medium cursor-pointer'
             onClick={handleLogout}>
               <span>Logout</span>
             </div>

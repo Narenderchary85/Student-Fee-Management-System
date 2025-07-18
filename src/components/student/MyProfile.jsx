@@ -184,14 +184,14 @@ const MyProfile = () => {
                 <button 
                   type="button" 
                   onClick={() => setIsEditPanelOpen(false)} 
-                  className="px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 rounded-md hover:bg-gray-200"
+                  className="px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 rounded-md hover:bg-gray-200 cursor-pointer"
                 >
                   Cancel
                 </button>
                 <button 
                     type="submit" 
                     disabled={isSaving}
-                    className="px-4 py-2 text-white bg-blue-600 rounded-lg disabled:bg-blue-300 disabled:cursor-not-allowed"
+                    className="px-4 py-2 text-white bg-blue-600 rounded-lg cursor-pointer disabled:bg-blue-300 disabled:cursor-not-allowed "
                     >
                     {isSaving ? 'Saving...' : 'Save'} 
                     </button>
@@ -243,7 +243,7 @@ const MyProfile = () => {
                       {!isFeePanelOpen ? (
                         <button 
                           onClick={() => setIsFeePanelOpen(true)} 
-                          className="px-6 py-2 font-semibold text-white bg-rose-600 rounded-md hover:bg-rose-700 transition-transform hover:scale-105"
+                          className="px-6 py-2 font-semibold cursor-pointer text-white bg-rose-600 rounded-md hover:bg-rose-700 transition-transform hover:scale-105"
                         >
                           Pay Fee Now
                         </button>
@@ -268,7 +268,7 @@ const MyProfile = () => {
                             />
                             <button 
                               onClick={handleCaptchaSubmit} 
-                              className="w-full sm:w-auto px-4 py-2 font-semibold text-white bg-green-600 rounded-md hover:bg-green-700"
+                              className="w-full sm:w-auto px-4 py-2 cursor-pointer font-semibold text-white bg-green-600 rounded-md hover:bg-green-700"
                             >
                               Verify & Proceed
                             </button>
