@@ -236,7 +236,7 @@ const MyProfile = () => {
 
                     <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4 bg-white p-4 rounded-md border border-rose-200">
                       <div><span className="font-semibold">Amount:</span> 65000.00</div>
-                      <div><span className="font-semibold">Due Date:</span> 2023-12-15</div>
+                      <div><span className="font-semibold">Due Date:</span> 2025-8-15</div>
                     </div>
 
                     <div className="mt-4">
