@@ -148,7 +148,7 @@ const Fees = () => {
                             </div>
                         </div>
                         <button type="submit" className="mt-8 w-full bg-blue-600 text-white font-semibold py-3 rounded-lg hover:bg-blue-700 transition-colors">
-                            Pay $500.00
+                            Pay 65000.00
                         </button>
                     </form>
                 </div>

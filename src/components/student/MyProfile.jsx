@@ -289,7 +289,7 @@ const MyProfile = () => {
                   <div className="ml-4">
                     <h3 className="text-lg font-bold text-green-800">Fees Paid</h3>
                     <p className="mt-2 text-sm text-green-700">
-                      Thank you! Your account is up to date. No further action is required.
+                    Thank you! Your fee has been successfully paid. 
                     </p>
                   </div>
                 </div>
