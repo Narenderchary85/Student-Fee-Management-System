@@ -1,8 +1,24 @@
-# React + Vite
+<h2>Live Demo<h2>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Click here to view the live demo](https://student-fee-management-system-xt21.onrender.com/)
+  
+<h1>StudentList Page</h1>
 
-Currently, two official plugins are available:
+![Alt Text](https://github.com/Narenderchary85/Student-Fee-Management-System/blob/main/public/studentList.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h1>Profile Page</h1>
+
+![Alt Text](https://github.com/Narenderchary85/Student-Fee-Management-System/blob/main/public/Profile.png)
+
+<h1>Payment Page</h1>
+
+![Alt Text](https://github.com/Narenderchary85/Student-Fee-Management-System/blob/main/public/paymentgateway.png)
+
+<h1>Card Page</h1>
+
+![Alt Text](https://github.com/Narenderchary85/Student-Fee-Management-System/blob/main/public/card.png)
+
+<h1>Payment Page</h1>
+
+![Alt Text](https://github.com/Narenderchary85/Student-Fee-Management-System/blob/main/public/payment.png)
+
